@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PinApp</string>
+    <string name="pin_name">Nazwa PINu</string>
+    <string name="pin_code">Kod PIN</string>
+    <string name="cancel">Anuluj</string>
+    <string name="ok">OK</string>
+    <string name="add">Dodaj</string>
+    <string name="delete">Skasuj</string>
+    <string name="add_new_pin">Dodać nowy PIN?</string>
+    <string name="do_you_want_to_delete_pin">Skasować PIN?</string>
+    <string name="name_can_not_be_empty">Nazwa nie może być pusta</string>
+</resources>

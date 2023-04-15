@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/margin_24"
+    android:paddingEnd="@dimen/margin_24"
+    android:layout_marginTop="@dimen/margin_24"
+    android:layout_marginBottom="@dimen/margin_24"
+    tools:context="com.example.pinapp.MainActivity">
+
+    <TextView
+        android:id="@+id/dialog_pin_name_tv"
+        android:layout_width="match_parent"
+        android:hint="@string/pin_name"
+        android:layout_marginTop="@dimen/margin_24"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dialog_pin_code_tv"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:maxLength="6"
+        android:textSize="20sp"
+        android:hint="@string/pin_code"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
